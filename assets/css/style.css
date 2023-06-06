@@ -9,6 +9,164 @@
     width: 70%;
     margin: 0 auto;
     display: flex;
-    background-color: rgb(122, 152, 142);
+    /* background-color: rgb(122, 152, 142); */
     margin-top: 60px;
+}
+
+/* grid__column-3 */
+.profile {
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
+}
+
+.profile__title {
+    border-radius: 6px;
+    line-height: 18px;
+    padding: 20px;
+}
+
+
+.profile__title-item:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.profile__title-item:nth-child(2) {
+    font-size: 13px;
+    color: var(--text-color);
+}
+
+.profile__image img {
+    width: 100%;
+}
+
+.profile__image {
+    margin-top: -18px;
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+}
+
+
+ul.profile-information {
+    list-style: none;
+    margin: 8px 0px 8px 35px;
+}
+
+ul.profile-information li {
+    border-left: solid 2px #eee;
+    padding: 0 0 23px 20px;
+    font-size: 14px;
+    color: #787878;
+}
+
+ul.profile-information li:last-child {
+    border: 0;
+    margin-left: 2px;
+    margin-top: -2px;
+}
+
+ul.profile-information li:first-child img {
+    margin: -44px -44px;
+    display: inline-block;
+    position: absolute;
+    width: 25px;
+}
+
+ul.profile-information li:first-child {
+    padding-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+}
+
+ul.profile-information li:first-child:before {
+    margin-left: -51px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    position: relative;
+    border: 0;
+    background: #ffc500;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    box-shadow: 0px 2px 32px 0px rgba(4, 123, 248, 0.3);
+}
+
+ul.profile-information li:before {
+    content: "";
+    border: solid 2px #ffc500;
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 50px;
+    font-size: 8px;
+    margin-left: -25px;
+    margin-top: 2px;
+    font-weight: 400;
+    background: #fff;
+    display: block;
+    position: absolute;
+}
+
+ul.profile-information li:first-child:after {
+    background: url(../image/glasses.png) no-repeat;
+    content: "";
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin: 16px -15px;
+    background-size: 27px 10px;
+}
+
+ul.profile-information li p {
+    font-size: 13.5px;
+    color: #7f7f7f;
+    line-height: 12px;
+}
+
+ul.profile-information li span {
+    color: #000;
+}
+
+/* profile__item-download */
+.profile__item-download {
+    width: 100%;
+    position: relative;
+}
+
+.profile__item-download-btn.icon {
+    text-align: left;
+    padding: 1px 6px 1px 19px;
+}
+
+.profile .profile__item-download-btn {
+    margin: 18px auto 30px;
+    display: block;
+    background: var(--primary-color);
+    font-weight: 500;
+    border: 0;
+    font-size: 14px;
+    border-radius: 50px;
+    line-height: 35px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.profile__item-download-btn.icon i {
+    color: #000;
+    background: #fff;
+    margin-left: 15px;
+    border-radius: 50px;
+    font-size: 11px;
+    height: 27px;
+    width: 27px;
+    float: right;
+    text-align: center;
+    line-height: 29px;
+    margin-top: 4px;
+}
+
+.profile__item-download-btn:hover {
+    background-color: #ffb100 !important;
 }
