@@ -17,6 +17,7 @@
 .profile {
     background: #fff;
     width: 100%;
+    overflow: hidden;
     box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -140,7 +141,7 @@ ul.profile-information li span {
     padding: 1px 6px 1px 19px;
 }
 
-.profile .profile__item-download-btn {
+.profile__item-download-btn {
     margin: 18px auto 30px;
     display: block;
     background: var(--primary-color);
