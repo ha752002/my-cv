@@ -12,6 +12,15 @@ body {
     position: relative;
 }
 
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -43,4 +52,22 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     width: 75%;
+}
+
+.grid__column-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 66.6666%;
+}
+
+.grid__column-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.3333%;
+}
+
+.grid__column-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
 }
