@@ -435,3 +435,34 @@ header a .menu__btn-plane {
     border-radius: 3px;
     background-color: #ffb100;
 }
+
+/* footer */
+.footer {
+    background: #1e1e1e;
+    margin: 30px 0px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    line-height: 7.2rem;
+}
+
+.footer__name p {
+    color: var(--white-color);
+    font-size: 1.5rem;
+}
+
+.footer-right {
+    color: #9c9c9c;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.footer-right a {
+    color: var(--white-color);
+}
+
+.footer .grid__row {
+    width: 100%;
+}
