@@ -79,12 +79,12 @@ html {
 }
 
 .site-btn {
-    display: block;
     background: #ffc500;
+    border: none;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.4rem;
     border-radius: 50px;
-    line-height: 35px;
+    line-height: 4.5rem;
     font-family: "Roboto", sans-serif;
     transition: all ease 0.5s;
     padding: 1px 29px;
@@ -93,4 +93,20 @@ html {
 
 .portfolio__container-btn {
     text-align: center;
+}
+
+.contact-inf ul li {
+    list-style: none;
+    font-size: 14px;
+    color: #787878;
+    line-height: 34px;
+}
+
+
+.contact-inf ul li span {
+    color: #000;
+}
+
+.contact__item-map::after {
+    width: 110px;
 }

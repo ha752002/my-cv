@@ -743,8 +743,6 @@ timeline li:first-child {
     width: 42px;
 }
 
-
-/* blog */
 .blog__wrapp {
     width: 100%;
 }
@@ -807,4 +805,63 @@ timeline li:first-child {
 
 .blog-btn {
     text-align: center;
+}
+
+/* contact */
+#contact section {
+    padding: 35px 30px 15px 30px;
+}
+
+.social-icons a {
+    font-size: 12px;
+    transition: all ease 0.2s;
+    width: 24px;
+    height: 18px;
+    display: inline-block;
+}
+
+.menu__social {
+    margin-top: 15px;
+}
+
+.contact__item-form::after {
+    width: 115px;
+}
+
+.contact__item-infor::after {
+    width: 178px;
+}
+
+.site-input {
+    width: 100%;
+    height: 45px;
+    border: 0;
+    color: #000;
+    border-bottom: solid 1px #dfdfdf;
+    font-size: 13px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    outline: 0;
+}
+
+.site-area {
+    width: 100%;
+    border: 0;
+    border-bottom: solid 1px #dfdfdf;
+    font-size: 1.3rem;
+    padding: 20px 0 0 10px;
+    min-height: 100px;
+    margin-bottom: 46px;
+}
+
+.contact__item-map::after {
+    width: 110px;
+}
+
+.contact-map iframe {
+    width: 100%;
+}
+
+.site-btn:hover {
+    background-color: #ffb100 !important;
 }
