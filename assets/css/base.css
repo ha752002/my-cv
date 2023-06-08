@@ -72,6 +72,12 @@ html {
     width: 50%;
 }
 
+.grid__column-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
 .site-btn {
     display: block;
     background: #ffc500;
