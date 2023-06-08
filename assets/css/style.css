@@ -645,3 +645,95 @@ timeline li:first-child {
     border-radius: 10px;
     background: #ffc500;
 }
+
+
+/* portfolio */
+
+.portfolio__header-content {
+    margin-bottom: 15px;
+}
+
+#portfolio section {
+    padding: 45px 30px 45px 30px;
+}
+
+.filter__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fitte__container-item {
+    font-size: 14px;
+    color: #787878;
+    cursor: pointer;
+    float: left;
+    margin-right: 15px;
+}
+
+
+.fitte__container-item:nth-child(1) {
+    color: var(--primary-color);
+}
+
+.cbp-item-wrapper {
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+}
+
+.cbp-item___img img {
+    width: 100%;
+}
+
+.cbp-item__detail {
+    padding: 14px;
+
+}
+
+.cbp-item__detail-title {
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.cbp-item__detail-info {
+    font-size: 1.3rem;
+    color: #989898;
+    line-height: 2.8rem;
+    display: block;
+}
+
+.portfolio__container .grid__column-4 {
+    padding: 15px;
+}
+
+.cbp-item___img .cbp-item-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(255, 197, 1);
+    opacity: 0.9;
+    color: white;
+    padding: 17px 0 16px;
+    min-width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    transition: all ease 0.2s;
+    visibility: hidden;
+}
+
+.cbp-item___img:hover .cbp-item-icon {
+    visibility: visible;
+    top: 35%;
+}
+
+/* .wrapper-item .item:hover .icon {
+    visibility: visible;
+    top: 35%;
+  } */
