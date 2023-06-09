@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     position: relative;
+    line-height: 1.42857143;
 }
 
 ul,
@@ -28,7 +29,7 @@ html {
 }
 
 .grid {
-    width: 1200px;
+    width: 1139px;
     max-width: 100%;
     margin: 0 auto;
 }
