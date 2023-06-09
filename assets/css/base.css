@@ -106,7 +106,3 @@ html {
 .contact-inf ul li span {
     color: #000;
 }
-
-.contact__item-map::after {
-    width: 110px;
-}

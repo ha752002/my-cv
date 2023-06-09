@@ -450,8 +450,12 @@ header a .menu__btn-plane {
     padding: 45px 30px 45px 30px;
 }
 
-.resume,
+/* .home {
+    display: block;
+} */
+
 .home,
+.resume,
 .portfolio,
 .blog,
 .contact {
